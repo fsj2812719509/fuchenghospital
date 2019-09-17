@@ -11,7 +11,7 @@ class IndexController extends Controller
 {
     public function index(){
         //查询导航
-        $res = OfficeModel::where(['office_statue'=>1])->get();
+        $res = OfficeModel::where(['office_statue'=>2])->get();
 
         return view('index.index',['res'=>$res]);
     }
