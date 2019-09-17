@@ -1,4 +1,4 @@
-@extends('Index/layouts/main')
+@extends('index/layouts/main')
 
 @section('title', '后台首页')
 
