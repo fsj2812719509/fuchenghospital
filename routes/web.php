@@ -40,3 +40,23 @@ Route::any('/OfficeRecover','Admin\OfficeController@OfficeRecover');//恢复
 Route::any('/OfficeUpdateList','Admin\OfficeController@OfficeUpdateList');//修改页面
 Route::any('/OfficeUpdate','Admin\OfficeController@OfficeUpdate');//修改
 
+
+
+//资讯
+Route::any('/ConsultAddList','Admin\ConsultController@ConsultAddList');//资讯添加页面
+Route::any('/ConsultAddDo','Admin\ConsultController@ConsultAddDo');//资讯添加
+Route::any('/consultList','Admin\ConsultController@ConsultList');//资讯展示
+Route::any('/ConsultDel','Admin\ConsultController@ConsultDel');//资讯删除
+Route::any('/ConsultUpdateList','Admin\ConsultController@ConsultUpdateList');//资讯修改页面
+Route::any('/ConsultUpdateDo','Admin\ConsultController@ConsultUpdateDo');//资讯修改
+Route::any('/ConsultPart','Admin\ConsultController@ConsultPart');//资讯详情
+Route::any('/ConsultRecover','Admin\ConsultController@ConsultRecover');//资讯恢复
+
+
+
+//前台
+Route::any('/','Index\IndexController@index');//访问页面
+Route::any('/IndexOffice','Index\IndexController@IndexOffice');//科室资讯
+Route::any('/IndexPart','Index\IndexController@IndexPart');//科室内容
+
+
