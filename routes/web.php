@@ -45,7 +45,7 @@ Route::any('/OfficeUpdate','Admin\OfficeController@OfficeUpdate');//修改
 //资讯
 Route::any('/ConsultAddList','Admin\ConsultController@ConsultAddList');//资讯添加页面
 Route::any('/ConsultAddDo','Admin\ConsultController@ConsultAddDo');//资讯添加
-Route::any('/consultList','Admin\ConsultController@ConsultList');//资讯展示
+Route::any('/ConsultList','Admin\ConsultController@ConsultList');//资讯展示
 Route::any('/ConsultDel','Admin\ConsultController@ConsultDel');//资讯删除
 Route::any('/ConsultUpdateList','Admin\ConsultController@ConsultUpdateList');//资讯修改页面
 Route::any('/ConsultUpdateDo','Admin\ConsultController@ConsultUpdateDo');//资讯修改

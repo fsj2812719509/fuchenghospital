@@ -130,7 +130,7 @@ class ConsultController extends Controller
         $sql = ConsultModel::where($where)->update(['consult_statue'=>1]);
         if($sql){
             echo '恢复成功';
-            header("refresh:2;url='/consultList'");
+            header("refresh:2;url='/ConsultList'");
         }else{
             echo '恢复失败';
         }
