@@ -27,7 +27,7 @@
 <body>
 <div class="container-scroller">
     <nav class="navbar default-layout-navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
-        <div style="font-size: 30px; margin:0 auto; color: #7886d7;">阜城县第一人民医院</div>
+        <div style="font-size: 30px; margin:0 auto; color: #7886d7;">阜城县人民医院</div>
     </nav>
     {{--左侧导航--}}
     <div class="container-fluid page-body-wrapper">
